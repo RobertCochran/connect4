@@ -46,6 +46,9 @@ with open("test-boards.txt") as file:
             row.append(char)
         if line != '\n':
             board["layout"].append(row)
+    else:
+        # We've hit EOF. Apppend our last board to our boards list.
+        boards.append(board)
 
 def pretty_print_board(board):
     for row in board:
