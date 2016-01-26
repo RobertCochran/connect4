@@ -16,7 +16,7 @@ def user_input():
             if (1 <= row <= 6) and (1 <= col <= 7) and (board[row-1][col-1] == " "):
                 board[row-1][col-1] = 'r'
                 valid_move = True
-                 break
+                break
         else:
             print "Error, please restart game and try again."
             
