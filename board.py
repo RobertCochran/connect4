@@ -1,6 +1,6 @@
-empty = '_'
-red = 'R'
-black = 'B'
+empty = '.'
+red = 'r'
+black = 'b'
 
 BOARD_COLUMNS = 7
 BOARD_ROWS = 6
