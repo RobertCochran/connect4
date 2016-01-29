@@ -13,7 +13,7 @@ def user_input():
     while not valid_move:
         col = input(" Choose a column to put your piece in (1-7): ")
         for row in range (6,0,-1):
-            if (1 <= row <= 6) and (1 <= col <= 7) and (board[row-1][col-1] == " "):
+            if (1 <= row <= 6) and (1 <= col <= 7) and (board[row-1][col-1] == "."):
                 board[row-1][col-1] = 'r'
                 valid_move = True
                 break
@@ -31,7 +31,7 @@ def computer_choice():
         row = random.randint(0,6)
         col = random.randint(0,7)
         for row in range (6,0,-1):
-            if board[row][col] == " ":
+            if board[row][col] == ".":
                 board[row][colum] == "b"
                 valid_move = True
                 break
