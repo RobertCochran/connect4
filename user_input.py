@@ -4,8 +4,8 @@ import random
 def user_input():
     """ This function allows the user to choose where their red piece goes. """
     
-    print "Were going to play Connect Four."
-    print " I'll be black and you'll  be red. "
+    print "We're going to play Connect Four."
+    print " I'll be black and you'll be red. "
 
     print "You go first and choose where you want to put your piece. There are seven columns in total."
 
