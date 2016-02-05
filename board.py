@@ -25,34 +25,34 @@ def drop_token(board, column, color, x, y):
     '''
     This drops a point in a specific spot that the user inputs.
     '''
-    drop_point = in board drop.color(column.(x,y))
+    drop_point = in board.drop.color(column.(x,y))
 
     
 def move_is_valid(board, column):
     '''
     This will check the board for empty spaces.
     '''
-    if (board.columns.(7, 6) == True):
-        if (board.columns.(6, 6) == True):
-            if (board.columns.(5, 6) == True):
-                if (board.columns.(4, 6) == True):
-                    if (board.columns.(3, 6) == True):
-                        if (board.columns.(2, 6) == True):
-                            if (board.columns.(1, 6) == True):
+    if board.columns.(7, 6) == True:
+        if board.columns.(6, 6) == True:
+            if board.columns.(5, 6) == True:
+                if board.columns.(4, 6) == True:
+                    if board.columns.(3, 6) == True:
+                        if board.columns.(2, 6) == True:
+                            if board.columns.(1, 6) == True:
     return True                            
-    if (board.columns.(7, 6) == False):
-         if (board.columns.(6, 6) == False):
-              if (board.columns.(5, 6) == False):
-                  if (board.columns.(4, 6) == False):
-                       if (board.columns.(3, 6) == False):
-                            if (board.columns.(2, 6) == False):
-                                 if (board.columns.(1, 6) == False):     
+    if board.columns.(7, 6) == False:
+         if board.columns.(6, 6) == False:
+              if board.columns.(5, 6) == False:
+                  if board.columns.(4, 6) == False:
+                       if board.columns.(3, 6) == False:
+                            if board.columns.(2, 6) == False:
+                                 if (oard.columns.(1, 6) == False:     
     return False                            
 
 
 def main():
     board = start_new_board_game()
-    if (move_is_valid(board, colums) == True):
+    if move_is_valid(board, colums) == True:
         drop_token(board, colums, color, x, y)
- else:
+    else:
         # I don't know what to write here can you help.?
