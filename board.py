@@ -55,4 +55,4 @@ def main():
     if move_is_valid(board, colums) == True:
         drop_token(board, colums, color, x, y)
     else:
-        # I don't know what to write here can you help.?
+        # I don't know what to write here can you help please.?
